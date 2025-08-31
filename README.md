@@ -11,18 +11,12 @@ that can be used for generating headlines.
 A tool leveraging Google's LLMs to fill gaps in search campaigns setup by creating new headlines/descriptions 
 for RSA from existing keywords.
 
-# Deliverable (implementation)
-This repository contains source code for an Apps Script library project. It's based on [ASIDE](https://github.com/google/aside) 
-which in a turn based on [clasp](https://github.com/google/clasp).  
-Thanks to those awesome libraries development can be done locally in TypeScript, transpiled to JavaScript and 
-push a Apps Script project.
-
 
 # Deployment
 From the user's viewpoint the deployment starts with cloning the template Spreadsheet and 
 doing some setup steps in it described in the following doc:
 
-[Implementation Guide](https://docs.google.com/document/d/1jhosU5-nFFKpmZTZOM0OPdAi4mc_KuZN6L77jBOzx0M/edit) (publicly accessable, owned by gtech.cse.demos@gmail.com)
+[Implementation Guide](https://docs.google.com/document/d/1jhosU5-nFFKpmZTZOM0OPdAi4mc_KuZN6L77jBOzx0M/edit) (publicly accessable)
 
 
 From the developer's viewpoint the deployment is updating an Apps Script library project with transpiled code.
